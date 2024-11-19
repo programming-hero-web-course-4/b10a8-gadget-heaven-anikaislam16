@@ -1,0 +1,10 @@
+{
+  "categories": [
+    { "name": "Laptop" },
+    { "name": "Phone " },
+    { "name": "Accessories" },
+    { "name": "Smart Watch" },
+    { "name": "MacBook" },
+    { "name": "iPhone" }
+  ]
+}

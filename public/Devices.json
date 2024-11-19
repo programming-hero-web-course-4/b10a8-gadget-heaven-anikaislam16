@@ -1,0 +1,659 @@
+{
+  "products": [
+    {
+      "model": "Dell Inspiron 15",
+      "price": 550,
+      "category": "Laptop",
+      "image": "https://i.ibb.co.com/bJLnYpZ/laptop.png",
+      "description": "The Dell Inspiron 15 is a versatile and affordable laptop suitable for everyday computing tasks, featuring a sleek design and reliable performance.",
+      "specifications": [
+        "15.6-inch Full HD display",
+        "Intel Core i5 processor",
+        "8GB RAM",
+        "512GB SSD storage",
+        "Intel UHD Graphics",
+        "Windows 11 Home"
+      ],
+      "inStock": false,
+      "rating": 4.2
+    },
+    {
+      "model": "HP Pavilion x360",
+      "price": 650,
+      "category": "Laptop",
+      "image": "https://i.ibb.co.com/bJLnYpZ/laptop.png",
+      "description": "The HP Pavilion x360 is a 2-in-1 convertible laptop with a 360-degree hinge, offering great flexibility for work and play.",
+      "specifications": [
+        "14-inch Full HD touchscreen",
+        "Intel Core i5 processor",
+        "8GB RAM",
+        "512GB SSD storage",
+        "Intel UHD Graphics",
+        "Windows 11 Home"
+      ],
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "model": "Lenovo IdeaPad 3",
+      "price": 500,
+      "category": "Laptop",
+      "image": "https://i.ibb.co.com/bJLnYpZ/laptop.png",
+      "description": "The Lenovo IdeaPad 3 is an affordable laptop with reliable performance for basic computing tasks like browsing, media consumption, and office work.",
+      "specifications": [
+        "15.6-inch HD display",
+        "AMD Ryzen 5 3500U processor",
+        "8GB RAM",
+        "256GB SSD storage",
+        "AMD Radeon Vega 8 Graphics",
+        "Windows 11 Home"
+      ],
+      "inStock": true,
+      "rating": 4.0
+    },
+    {
+      "model": "Asus VivoBook 15",
+      "price": 620,
+      "category": "Laptop",
+      "image": "https://i.ibb.co.com/bJLnYpZ/laptop.png",
+      "description": "The Asus VivoBook 15 offers a balance between performance and affordability with a large screen, modern processor, and solid build quality.",
+      "specifications": [
+        "15.6-inch Full HD display",
+        "Intel Core i5 processor",
+        "8GB RAM",
+        "512GB SSD storage",
+        "Intel UHD Graphics",
+        "Windows 11 Home"
+      ],
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "model": "Acer Aspire 5",
+      "price": 570,
+      "category": "Laptop",
+      "image": "https://i.ibb.co.com/bJLnYpZ/laptop.png",
+      "description": "The Acer Aspire 5 is a slim, affordable laptop that offers a powerful processor and high-resolution display for daily use and media consumption.",
+      "specifications": [
+        "15.6-inch Full HD display",
+        "Intel Core i5 processor",
+        "8GB RAM",
+        "512GB SSD storage",
+        "Intel UHD Graphics",
+        "Windows 10 Home"
+      ],
+      "inStock": false,
+      "rating": 4.1
+    },
+    {
+      "model": "Microsoft Surface Laptop Go",
+      "price": 720,
+      "category": "Laptop",
+      "image": "https://i.ibb.co.com/bJLnYpZ/laptop.png",
+      "description": "The Microsoft Surface Laptop Go is a lightweight and portable laptop that offers a great balance of performance, design, and affordability.",
+      "specifications": [
+        "12.4-inch PixelSense touchscreen display",
+        "Intel Core i5 processor",
+        "8GB RAM",
+        "128GB SSD storage",
+        "Intel UHD Graphics",
+        "Windows 10 Home"
+      ],
+      "inStock": true,
+      "rating": 4.4
+    },
+    {
+      "model": "Apple MacBook Air M1",
+      "price": 1000,
+      "category": "MacBook",
+      "image": "https://i.ibb.co.com/42ndx6b/macbook.png",
+      "description": "The MacBook Air M1 features Apple's own M1 chip for incredible speed and efficiency, making it perfect for work, study, and entertainment.",
+      "specifications": [
+        "13.3-inch Retina display",
+        "Apple M1 chip",
+        "8GB RAM",
+        "256GB SSD storage",
+        "Integrated 7-core GPU",
+        "macOS Monterey"
+      ],
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "model": "Razer Blade Stealth 13",
+      "price": 1300,
+      "category": "Laptop",
+      "image": "https://i.ibb.co.com/bJLnYpZ/laptop.png",
+      "description": "The Razer Blade Stealth 13 is a sleek, ultra-portable laptop designed for gaming and productivity, featuring a high-performance processor and graphics.",
+      "specifications": [
+        "13.3-inch Full HD display",
+        "Intel Core i7 processor",
+        "16GB RAM",
+        "512GB SSD storage",
+        "NVIDIA GeForce GTX 1650 Ti",
+        "Windows 10 Home"
+      ],
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "model": "MSI GF63 Thin",
+      "price": 800,
+      "category": "Laptop",
+      "image": "https://i.ibb.co.com/bJLnYpZ/laptop.png",
+      "description": "The MSI GF63 Thin is a gaming laptop that provides excellent performance for a budget-friendly price, perfect for casual gaming and productivity.",
+      "specifications": [
+        "15.6-inch Full HD display",
+        "Intel Core i5 processor",
+        "8GB RAM",
+        "512GB SSD storage",
+        "NVIDIA GeForce GTX 1650",
+        "Windows 10 Home"
+      ],
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "model": "LG Gram 14",
+      "price": 900,
+      "category": "Laptop",
+      "image": "https://i.ibb.co.com/bJLnYpZ/laptop.png",
+      "description": "The LG Gram 14 is a lightweight laptop that offers portability and performance for everyday tasks, featuring long battery life and solid build quality.",
+      "specifications": [
+        "14-inch Full HD display",
+        "Intel Core i5 processor",
+        "8GB RAM",
+        "256GB SSD storage",
+        "Intel UHD Graphics",
+        "Windows 10 Home"
+      ],
+      "inStock": true,
+      "rating": 4.4
+    },
+    {
+      "model": "MacBook Air M2",
+      "price": 1100,
+      "category": "MacBook",
+      "image": "https://i.ibb.co.com/42ndx6b/macbook.png",
+      "description": "The MacBook Air M2 is a sleek, powerful laptop with Apple's latest M2 chip, perfect for work, study, and entertainment with excellent battery life.",
+      "specifications": [
+        "13.3-inch Retina display",
+        "Apple M2 chip",
+        "8GB RAM",
+        "256GB SSD storage",
+        "Integrated 8-core GPU",
+        "macOS Monterey"
+      ],
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "model": "MacBook Pro 13-inch",
+      "price": 1400,
+      "category": "MacBook",
+      "image": "https://i.ibb.co.com/42ndx6b/macbook.png",
+      "description": "The MacBook Pro 13-inch features Apple's M1 chip for powerful performance in a compact and portable design, perfect for professionals on the go.",
+      "specifications": [
+        "13.3-inch Retina display",
+        "Apple M1 chip",
+        "8GB RAM",
+        "512GB SSD storage",
+        "Integrated 8-core GPU",
+        "macOS Monterey"
+      ],
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "model": "MacBook Pro 16-inch",
+      "price": 2500,
+      "category": "MacBook",
+      "image": "https://i.ibb.co.com/42ndx6b/macbook.png",
+      "description": "The MacBook Pro 16-inch offers a larger display and higher processing power for demanding professionals, featuring Apple's M1 Pro or M1 Max chip.",
+      "specifications": [
+        "16-inch Retina display",
+        "Apple M1 Pro or M1 Max chip",
+        "16GB RAM",
+        "512GB SSD storage",
+        "Integrated 16-core GPU",
+        "macOS Monterey"
+      ],
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "model": "MacBook Air Retina",
+      "price": 1200,
+      "category": "MacBook",
+      "image": "https://i.ibb.co.com/42ndx6b/macbook.png",
+      "description": "The MacBook Air Retina features a stunning Retina display, Apple's powerful M1 chip, and great battery life, perfect for day-to-day use.",
+      "specifications": [
+        "13.3-inch Retina display",
+        "Apple M1 chip",
+        "8GB RAM",
+        "256GB SSD storage",
+        "Integrated 7-core GPU",
+        "macOS Monterey"
+      ],
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "model": "MacBook Pro M1",
+      "price": 2000,
+      "category": "MacBook",
+      "image": "https://i.ibb.co.com/42ndx6b/macbook.png",
+      "description": "The MacBook Pro M1 features Apple's M1 chip, offering unmatched performance, improved battery life, and an ultra-responsive user experience.",
+      "specifications": [
+        "13.3-inch Retina display",
+        "Apple M1 chip",
+        "8GB RAM",
+        "512GB SSD storage",
+        "Integrated 8-core GPU",
+        "macOS Monterey"
+      ],
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "model": "MacBook Air M1",
+      "price": 1500,
+      "category": "MacBook",
+      "image": "https://i.ibb.co.com/42ndx6b/macbook.png",
+      "description": "The MacBook Air M1 is powered by Apple's M1 chip, offering excellent performance, a lightweight design, and long battery life for everyday use.",
+      "specifications": [
+        "13.3-inch Retina display",
+        "Apple M1 chip",
+        "8GB RAM",
+        "256GB SSD storage",
+        "Integrated 7-core GPU",
+        "macOS Monterey"
+      ],
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "model": "MacBook 12-inch",
+      "price": 1700,
+      "category": "MacBook",
+      "image": "https://i.ibb.co.com/42ndx6b/macbook.png",
+      "description": "The MacBook 12-inch is a compact, ultra-portable laptop that offers the power of Apple's M1 chip in a sleek, minimalistic design.",
+      "specifications": [
+        "12-inch Retina display",
+        "Apple M1 chip",
+        "8GB RAM",
+        "256GB SSD storage",
+        "Integrated 7-core GPU",
+        "macOS Monterey"
+      ],
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "model": "MacBook Pro 15-inch",
+      "price": 2200,
+      "category": "MacBook",
+      "image": "https://i.ibb.co.com/42ndx6b/macbook.png",
+      "description": "The MacBook Pro 15-inch is designed for power users, offering exceptional performance with Apple's M1 Pro chip and an immersive Retina display.",
+      "specifications": [
+        "15.4-inch Retina display",
+        "Apple M1 Pro chip",
+        "16GB RAM",
+        "512GB SSD storage",
+        "Integrated 16-core GPU",
+        "macOS Monterey"
+      ],
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "model": "Samsung Galaxy S21",
+      "price": 700,
+      "category": "Phone",
+      "image": "https://i.ibb.co.com/PMHd6pH/mobile.png",
+      "description": "The Samsung Galaxy S21 offers a high-performance experience with a dynamic AMOLED display, 5G connectivity, and an advanced camera setup for photography enthusiasts.",
+      "specifications": [
+        "6.2-inch Dynamic AMOLED 2X display",
+        "Exynos 2100/Qualcomm Snapdragon 888",
+        "8GB RAM",
+        "128GB/256GB storage",
+        "4000mAh battery",
+        "Triple camera setup (12MP + 64MP + 12MP)",
+        "Android 11, One UI 3.1"
+      ],
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "model": "Google Pixel 6",
+      "price": 650,
+      "category": "Phone",
+      "image": "https://i.ibb.co.com/PMHd6pH/mobile.png",
+      "description": "The Google Pixel 6 combines Google's clean software experience with excellent camera features and the new Google Tensor chip, offering a great balance of performance and value.",
+      "specifications": [
+        "6.4-inch AMOLED display",
+        "Google Tensor chip",
+        "8GB RAM",
+        "128GB/256GB storage",
+        "4600mAh battery",
+        "Dual camera setup (50MP + 12MP)",
+        "Android 12"
+      ],
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "model": "OnePlus 9 Pro",
+      "price": 800,
+      "category": "Phone",
+      "image": "https://i.ibb.co.com/PMHd6pH/mobile.png",
+      "description": "The OnePlus 9 Pro is a flagship phone featuring a 120Hz Fluid AMOLED display, Snapdragon 888, and a Hasselblad collaboration for enhanced camera performance.",
+      "specifications": [
+        "6.7-inch Fluid AMOLED display (120Hz)",
+        "Qualcomm Snapdragon 888",
+        "12GB RAM",
+        "128GB/256GB storage",
+        "4500mAh battery",
+        "Quad camera setup (48MP + 50MP + 8MP + 2MP)",
+        "OxygenOS based on Android 11"
+      ],
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "model": "Xiaomi Mi 11",
+      "price": 600,
+      "category": "Phone",
+      "image": "https://i.ibb.co.com/PMHd6pH/mobile.png",
+      "description": "The Xiaomi Mi 11 offers a flagship experience with a 120Hz AMOLED display, Snapdragon 888, and a versatile camera setup at an affordable price.",
+      "specifications": [
+        "6.81-inch AMOLED display (120Hz)",
+        "Qualcomm Snapdragon 888",
+        "8GB RAM",
+        "128GB/256GB storage",
+        "4600mAh battery",
+        "Triple camera setup (108MP + 13MP + 5MP)",
+        "MIUI based on Android 11"
+      ],
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "model": "Sony Xperia 5 III",
+      "price": 750,
+      "category": "Phone",
+      "image": "https://i.ibb.co.com/PMHd6pH/mobile.png",
+      "description": "The Sony Xperia 5 III is designed for multimedia lovers, offering a 120Hz OLED display, Snapdragon 888, and high-quality cameras for photography and video recording.",
+      "specifications": [
+        "6.1-inch OLED display (120Hz)",
+        "Qualcomm Snapdragon 888",
+        "8GB RAM",
+        "128GB storage",
+        "4500mAh battery",
+        "Triple camera setup (12MP + 12MP + 12MP)",
+        "Android 11"
+      ],
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "model": "Oppo Find X3 Pro",
+      "price": 850,
+      "category": "Phone",
+      "image": "https://i.ibb.co.com/PMHd6pH/mobile.png",
+      "description": "The Oppo Find X3 Pro delivers a stunning display, Snapdragon 888, and innovative camera technology with a microscope lens for enhanced photography.",
+      "specifications": [
+        "6.7-inch AMOLED display (120Hz)",
+        "Qualcomm Snapdragon 888",
+        "12GB RAM",
+        "256GB storage",
+        "4500mAh battery",
+        "Quad camera setup (50MP + 50MP + 13MP + 3MP Microscope)",
+        "ColorOS based on Android 11"
+      ],
+      "inStock": true,
+      "rating": 4.7
+    },
+
+    {
+      "model": "Apple AirPods Pro",
+      "price": 200,
+      "category": "Accessories",
+      "image": "https://via.placeholder.com/150?text=AirPods+Pro",
+      "description": "The Apple AirPods Pro features active noise cancellation, a custom fit, and high-quality sound for an immersive listening experience.",
+      "specifications": [
+        "Active Noise Cancellation",
+        "Transparency mode",
+        "Customizable fit with silicone tips",
+        "H1 chip for seamless integration with Apple devices",
+        "Up to 4.5 hours of listening time"
+      ],
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "model": "Samsung Galaxy Buds Pro",
+      "price": 180,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/ynXdRF1/earbud.jpg",
+      "description": "The Samsung Galaxy Buds Pro delivers superior sound quality with intelligent active noise cancellation and a comfortable, ergonomic design.",
+      "specifications": [
+        "Intelligent Active Noise Cancellation",
+        "360 Audio with Dolby Head Tracking",
+        "IPX7 water resistance",
+        "Up to 5 hours of playtime with ANC on",
+        "Wireless charging"
+      ],
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "model": "Sony WH-1000XM4",
+      "price": 300,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/myh4bdr/headphone.png",
+      "description": "The Sony WH-1000XM4 is a premium noise-canceling headset, offering exceptional sound quality, comfort, and a long-lasting battery.",
+      "specifications": [
+        "Industry-leading noise cancellation",
+        "30 hours of battery life",
+        "Touch control for playback and calls",
+        "Speak-to-chat functionality",
+        "Alexa and Google Assistant support"
+      ],
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "model": "Logitech MX Master 3",
+      "price": 100,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/WBq29hQ/mouse.png",
+      "description": "The Logitech MX Master 3 is an ergonomic wireless mouse with precision tracking and customizable buttons for increased productivity.",
+      "specifications": [
+        "Ergonomic design",
+        "USB-C rechargeable",
+        "Darkfield high precision tracking",
+        "Up to 70 days of battery life",
+        "Multi-device support"
+      ],
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "model": "Razer Kraken Gaming Headset",
+      "price": 150,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/myh4bdr/headphone.png",
+      "description": "The Razer Kraken Gaming Headset is designed for immersive gaming experiences, with rich sound and a comfortable fit for extended playtime.",
+      "specifications": [
+        "7.1 surround sound",
+        "Cooling-gel ear cushions",
+        "Adjustable headband",
+        "Noise-canceling microphone",
+        "Compatible with PC, PS4, Xbox, and Switch"
+      ],
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "model": "Anker Soundcore Liberty Air 2",
+      "price": 120,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/myh4bdr/headphone.png",
+      "description": "The Anker Soundcore Liberty Air 2 offers impressive sound quality with a comfortable fit and long battery life for an on-the-go lifestyle.",
+      "specifications": [
+        "Graphene-enhanced sound",
+        "Up to 7 hours of playtime",
+        "Noise reduction technology",
+        "Bluetooth 5.0",
+        "IPX5 water-resistant"
+      ],
+      "inStock": true,
+      "rating": 4.4
+    },
+    {
+      "model": "Beats Studio Buds",
+      "price": 160,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/ynXdRF1/earbud.jpg",
+      "description": "The Beats Studio Buds offer high-quality audio with noise cancellation, perfect for workouts, travel, and day-to-day use.",
+      "specifications": [
+        "Active Noise Cancellation",
+        "Transparency mode",
+        "IPX4 water resistance",
+        "Up to 8 hours of listening time",
+        "Apple H1 chip integration"
+      ],
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "model": "Corsair HS80 RGB",
+      "price": 220,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/ynXdRF1/earbud.jpg",
+      "description": "The Corsair HS80 RGB is a premium gaming headset with immersive sound, RGB lighting, and a durable design for extended gaming sessions.",
+      "specifications": [
+        "Dolby Atmos for immersive sound",
+        "RGB lighting",
+        "High-fidelity audio drivers",
+        "Durable construction",
+        "Up to 20 hours of battery life"
+      ],
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "model": "JBL Tune 225TWS",
+      "price": 100,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/ynXdRF1/earbud.jpg",
+      "description": "The JBL Tune 225TWS offers a convenient and affordable true wireless earbud experience, with high-quality audio and a compact design.",
+      "specifications": [
+        "Dual Connect technology",
+        "Up to 25 hours of playtime",
+        "Ergonomic design for comfort",
+        "Bluetooth 5.0",
+        "IPX4 water resistance"
+      ],
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "model": "HyperX Cloud Alpha",
+      "price": 140,
+      "category": "Accessories",
+      "image": "https://i.ibb.co.com/ynXdRF1/earbud.jpg",
+      "description": "The HyperX Cloud Alpha provides exceptional sound quality, comfort, and durability for gaming enthusiasts and audiophiles alike.",
+      "specifications": [
+        "Dual chamber drivers for clearer sound",
+        "Memory foam ear cushions",
+        "Detachable noise-canceling mic",
+        "Up to 30 hours of battery life",
+        "Compatible with PC, PS4, Xbox, and more"
+      ],
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "model": "Apple Watch Series 8",
+      "price": 399,
+      "category": "Smart Watch",
+      "image": "https://i.ibb.co.com/WvqyTpn/smartwatch.png",
+      "description": "The Apple Watch Series 8 combines fitness tracking, advanced health features, and seamless integration with your Apple ecosystem.",
+      "specifications": [
+        "Always-on Retina display",
+        "Blood oxygen and ECG app",
+        "GPS and cellular options",
+        "Up to 18 hours of battery life",
+        "WatchOS 9"
+      ],
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "model": "Samsung Galaxy Watch 5",
+      "price": 279,
+      "category": "Smart Watch",
+      "image": "https://i.ibb.co.com/WvqyTpn/smartwatch.png",
+      "description": "The Samsung Galaxy Watch 5 offers comprehensive fitness tracking, heart rate monitoring, and stylish design, with a long battery life.",
+      "specifications": [
+        "Super AMOLED display",
+        "Blood oxygen and heart rate tracking",
+        "Up to 40 hours of battery life",
+        "GPS and LTE options",
+        "Samsung Health integration"
+      ],
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "model": "Garmin Venu 2",
+      "price": 399,
+      "category": "Smart Watch",
+      "image": "https://i.ibb.co.com/WvqyTpn/smartwatch.png",
+      "description": "The Garmin Venu 2 offers advanced fitness tracking, a vibrant AMOLED display, and long battery life for the active lifestyle.",
+      "specifications": [
+        "AMOLED display",
+        "Up to 11 days of battery life",
+        "Advanced sleep and stress tracking",
+        "GPS and heart rate monitoring",
+        "Fitness and wellness apps"
+      ],
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "model": "Fitbit Versa 4",
+      "price": 229,
+      "category": "Smart Watch",
+      "image": "https://i.ibb.co.com/WvqyTpn/smartwatch.png",
+      "description": "The Fitbit Versa 4 is a versatile smartwatch with comprehensive fitness tracking features, including built-in GPS and heart rate monitoring.",
+      "specifications": [
+        "AMOLED display",
+        "Built-in GPS",
+        "24/7 heart rate tracking",
+        "Sleep and stress monitoring",
+        "Up to 6+ days of battery life"
+      ],
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "model": "Amazfit GTR 4",
+      "price": 199,
+      "category": "Smart Watch",
+      "image": "https://i.ibb.co.com/WvqyTpn/smartwatch.png",
+      "description": "The Amazfit GTR 4 offers a stunning AMOLED display and a wide range of fitness tracking features with a stylish design.",
+      "specifications": [
+        "1.43-inch AMOLED display",
+        "Up to 14 days of battery life",
+        "GPS, heart rate, and SpO2 tracking",
+        "Sleep and stress monitoring",
+        "Water-resistant up to 50 meters"
+      ],
+      "inStock": true,
+      "rating": 4.5
+    }
+  ]
+}
