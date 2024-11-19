@@ -4,6 +4,7 @@ import { context } from "../context/ContextProvider";
 import CartItem from "./CartItem";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 const CartList = () => {
   const { setCartItems } = useContext(context);
   const [products, setProducts] = useState([]);
@@ -46,27 +47,26 @@ const CartList = () => {
   }, [cartProducts]);
 
   const handleSortByPrice = () => {
-    const sortedProducts = [...cartProducts].sort((a, b) => a.price - b.price);
+    const sortedProducts = [...cartProducts].sort((a, b) => b.price - a.price);
     setCartProducts(sortedProducts);
   };
 
   const handlePurchase = () => {
     modalRef.current.showModal();
     setPrice(0);
+    setCartItems([]);
     //navigate("/");
     setCartProducts([]);
     localStorage.setItem("cart", JSON.stringify([])); // Clear cart in local storage
   };
   const deleteItem = (model) => {
-    // Get items from localStorage and remove the specified model
     const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
     const updatedCart = cartItems.filter((item) => item !== model);
 
-    // Update localStorage and context
     localStorage.setItem("cart", JSON.stringify(updatedCart));
     setCartItems(updatedCart);
 
-    // Update cartProducts by filtering out the deleted item
+    toast.success("Delete from Cart");
     const updatedCartProducts = cartProducts.filter(
       (product) => product.model !== model
     );
@@ -90,7 +90,7 @@ const CartList = () => {
           </div>
           <button
             onClick={handleSortByPrice}
-            className="bg-white border-purple-600 border-2 font-semibold text-purple-600 px-4 py-2 rounded-3xl shadow-lg hover:bg-purple-700"
+            className="bg-white border-purple-600 border-2 font-semibold text-purple-600 px-4 py-2 rounded-3xl shadow-lg "
           >
             Sort By Price
           </button>

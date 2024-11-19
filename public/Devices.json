@@ -654,6 +654,57 @@
       ],
       "inStock": true,
       "rating": 4.5
+    },
+    {
+      "model": "iPhone 13 Pro",
+      "price": 999,
+      "category": "iPhone",
+      "image": "https://i.ibb.co.com/PMHd6pH/mobile.png",
+      "description": "The iPhone 13 Pro combines cutting-edge technology with sleek design, featuring the A15 Bionic chip and a stunning Super Retina XDR display.",
+      "specifications": [
+        "6.1-inch Super Retina XDR display",
+        "A15 Bionic chip",
+        "ProMotion technology with adaptive refresh rate up to 120Hz",
+        "128GB/256GB/512GB/1TB storage options",
+        "Triple 12MP camera system with Night mode and Cinematic mode",
+        "iOS 15"
+      ],
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "model": "iPhone SE (3rd Generation)",
+      "price": 429,
+      "category": "iPhone",
+      "image": "https://i.ibb.co.com/PMHd6pH/mobile.png",
+      "description": "The iPhone SE (3rd Generation) delivers powerful performance in a compact size, featuring the A15 Bionic chip and the iconic Home button with Touch ID.",
+      "specifications": [
+        "4.7-inch Retina HD display",
+        "A15 Bionic chip",
+        "64GB/128GB/256GB storage options",
+        "Single 12MP wide camera with advanced computational photography",
+        "5G capability",
+        "iOS 15"
+      ],
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "model": "iPhone 14 Pro",
+      "price": 1099,
+      "category": "iPhone",
+      "image": "https://i.ibb.co.com/PMHd6pH/mobile.png",
+      "description": "The iPhone 14 Pro offers an unparalleled smartphone experience with its A16 Bionic chip, Always-On display, and advanced camera system.",
+      "specifications": [
+        "6.1-inch Super Retina XDR Always-On display",
+        "A16 Bionic chip",
+        "Dynamic Island interface for notifications",
+        "48MP main camera with ProRAW",
+        "120Hz ProMotion display",
+        "iOS 16"
+      ],
+      "inStock": true,
+      "rating": 4.9
     }
   ]
 }

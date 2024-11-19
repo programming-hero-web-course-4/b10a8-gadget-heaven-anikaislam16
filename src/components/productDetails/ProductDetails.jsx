@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 import Rating from "react-rating";
 import { toast } from "react-toastify";
 import axios from "axios";
-import { addCartItems } from "../../helpter";
+import { addCartItems, addWishedItems } from "../../helpter";
 const ProductDetails = () => {
   const [products, setProducts] = useState([]);
   const { model } = useParams();
@@ -48,9 +48,7 @@ const ProductDetails = () => {
   }, [product]);
 
   const handleWishlistClick = () => {
-    const wishlist = JSON.parse(localStorage.getItem("wish")) || [];
-    wishlist.push(product);
-    localStorage.setItem("wish", JSON.stringify(wishlist));
+    addWishedItems(product.model);
     setWishedItems([...wishedItems, product.model]);
     toast.success("Item added to wishlist");
     setIsDisabled(true);
