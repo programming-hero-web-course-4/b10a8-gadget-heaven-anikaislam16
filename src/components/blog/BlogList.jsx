@@ -30,13 +30,17 @@ const BlogList = () => {
             <div
               key={item.id}
               className="p-6 border border-gray-300 rounded-lg shadow-md hover:shadow-lg hover:bg-gray-100 transition duration-300 flex justify-between"
+              style={{ cursor: "pointer" }}
+              onClick={() => {
+                navigate(`/blog/${item.id}`);
+              }}
             >
               <h1 className="text-lg font-semibold text-gray-800">
                 {item.title}
               </h1>
               <div>
                 <img
-                  src="/public/assets/greater-than-symbol.png"
+                  src="/assets/greater-than-symbol.png"
                   alt=""
                   className="h-10 w-10"
                   style={{ cursor: "pointer" }}
