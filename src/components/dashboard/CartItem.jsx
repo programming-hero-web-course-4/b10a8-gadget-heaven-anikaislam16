@@ -28,7 +28,7 @@ const CartItem = ({ item, deleteItem }) => {
               src="../../../../../assets/delete.png"
               className="h-10 w-10"
               onClick={() => {
-                deleteItem(item);
+                deleteItem(item.model);
               }}
               alt=""
               style={{ cursor: "pointer" }}
