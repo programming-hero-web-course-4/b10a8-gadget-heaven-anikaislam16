@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 import Rating from "react-rating";
 import { toast } from "react-toastify";
 import axios from "axios";
+import { Helmet } from "react-helmet-async";
 import { addCartItems, addWishedItems } from "../../helpter";
 const ProductDetails = () => {
   const [products, setProducts] = useState([]);
@@ -55,7 +56,9 @@ const ProductDetails = () => {
   };
   return (
     <div>
-      {" "}
+      <Helmet>
+        <title>Product Details</title>
+      </Helmet>
       <div className="text-center flex items-center flex-col bg-[#9538E2] space-y-4 py-4 relative h-[500px] mt-10">
         <p className="text-white text-4xl font-bold px-32 py-6">
           Product Details

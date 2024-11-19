@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const BlogList = () => {
   const [products, setProducts] = useState([]);
@@ -21,6 +22,9 @@ const BlogList = () => {
 
   return (
     <div className="mx-28 mt-16">
+      <Helmet>
+        <title>Blogs</title>
+      </Helmet>
       <div className="flex justify-between items-center">
         <h1 className="font-bold text-2xl text-center my-6">Blogs</h1>
       </div>

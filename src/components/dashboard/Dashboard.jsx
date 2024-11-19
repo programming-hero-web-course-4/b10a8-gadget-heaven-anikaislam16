@@ -2,11 +2,14 @@
 import React, { useState } from "react";
 import CartList from "./CartList";
 import WishList from "./WishList";
-
+import { Helmet } from "react-helmet-async";
 const Dashboard = () => {
   const [active, setActive] = useState("cart");
   return (
     <div className="mt-10">
+      <Helmet>
+        <title>Dashboard</title>
+      </Helmet>
       <div className="text-center flex items-center flex-col bg-[#9538E2] space-y-4 py-4 relative h-[300px]">
         <p className="text-white text-4xl font-bold px-32 py-6">Dashboard</p>
         <p className="text-white">

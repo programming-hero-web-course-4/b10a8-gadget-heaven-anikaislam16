@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const BlogItem = () => {
   const [blogs, setBlogs] = useState([]);
@@ -35,7 +36,9 @@ const BlogItem = () => {
 
   return (
     <div className="mx-20 mt-20">
-      {" "}
+      <Helmet>
+        <title>Blogs</title>
+      </Helmet>{" "}
       {blog ? (
         <div className=" mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
           <div className="p-6">
