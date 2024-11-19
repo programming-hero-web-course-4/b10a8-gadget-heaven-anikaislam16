@@ -38,6 +38,14 @@ export default function Navbar() {
         >
           Dashboard
         </NavLink>
+        <NavLink
+          to="/blog"
+          className={({ isActive }) =>
+            isActive ? " font-semibold no-underline" : " no-underline"
+          }
+        >
+          Blogs
+        </NavLink>
       </nav>
       <div className="flex space-x-5 ">
         <div className="relative">
