@@ -2,21 +2,21 @@
 
 Welcome to **Gadget Heaven**, your ultimate destination for discovering and purchasing the latest gadgets! This website allows users to browse through a wide variety of gadgets, explore detailed information, manage a personalized wishlist, and effortlessly shop online.
 
-## 🚀 Live Website
+## Live Website
 
 Visit the live website here: [Gadget Heaven](https://marvelous-cat-baf399.netlify.app/)
 
-## 📄 Requirement Document
+## Requirement Document
 
 Access the detailed requirement document here: [Requirement Document](https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08.pdf)
 
-## 📝 Project Description
+## Project Description
 
 **Gadget Heaven** is an e-commerce web application built using React that focuses on providing users with a seamless shopping experience. Users can explore gadgets by categories, view product details, and manage their shopping cart and wishlist.
 
 ---
 
-## 🔑 Key Features
+## Key Features
 
 1. **Browse Gadgets by Categories**  
    Users can view all available gadgets or filter products by specific categories for focused browsing.
@@ -35,7 +35,7 @@ Access the detailed requirement document here: [Requirement Document](https://gi
 
 ---
 
-## 🔧 Technologies and Concepts Used
+## Technologies and Concepts Used
 
 ### React Fundamental Concepts
 
