@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className=" font-semibold">Gadget Heaven</div>
       <nav className="flex space-x-8">
         <NavLink
-          to="/"
+          to="/categories/all"
           className={({ isActive }) =>
             isActive ? "font-semibold no-underline" : "no-underline"
           }
