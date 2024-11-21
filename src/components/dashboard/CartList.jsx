@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 const CartList = () => {
   const { setCartItems } = useContext(context);
+  const [count, setCount] = useState(0);
   const [products, setProducts] = useState([]);
   const [cartProducts, setCartProducts] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -29,12 +30,14 @@ const CartList = () => {
   useEffect(() => {
     const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
 
-    const filteredProducts = cartItems.flatMap((cartItem) =>
-      products.filter((product) => product.model === cartItem)
+    // Ensure cartProducts only includes valid products from the cart
+    const filteredProducts = cartItems.map((cartItem) =>
+      products.find((product) => product.model === cartItem)
     );
 
-    setCartProducts(filteredProducts);
+    setCartProducts(filteredProducts.filter((product) => product)); // Remove undefined
   }, [products]);
+
   useEffect(() => {
     if (cartProducts && cartProducts.length > 0) {
       const totalPrice = cartProducts.reduce(
@@ -47,7 +50,9 @@ const CartList = () => {
   }, [cartProducts]);
 
   const handleSortByPrice = () => {
+    console.log(cartProducts);
     const sortedProducts = [...cartProducts].sort((a, b) => b.price - a.price);
+    console.log(sortedProducts);
     setCartProducts(sortedProducts);
   };
 
@@ -61,15 +66,26 @@ const CartList = () => {
   };
   const deleteItem = (model) => {
     const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
-    const updatedCart = cartItems.filter((item) => item !== model);
 
-    localStorage.setItem("cart", JSON.stringify(updatedCart));
-    setCartItems(updatedCart);
+    const itemIndex = cartItems.indexOf(model);
+    if (itemIndex > -1) {
+      cartItems.splice(itemIndex, 1);
+    }
 
-    toast.success("Delete from Cart");
-    const updatedCartProducts = cartProducts.filter(
-      (product) => product.model !== model
+    // Update localStorage and state
+    localStorage.setItem("cart", JSON.stringify(cartItems));
+    setCartItems(cartItems);
+
+    toast.success("Deleted from Cart");
+
+    // Update cartProducts state
+    const updatedCartProducts = [...cartProducts];
+    const productIndex = updatedCartProducts.findIndex(
+      (p) => p.model === model
     );
+    if (productIndex > -1) {
+      updatedCartProducts.splice(productIndex, 1);
+    }
     setCartProducts(updatedCartProducts);
 
     // Recalculate the total price
@@ -108,10 +124,8 @@ const CartList = () => {
         </div>
       </div>
       {cartProducts &&
-        cartProducts.map((item) => {
-          return (
-            <CartItem key={item.model} item={item} deleteItem={deleteItem} />
-          );
+        cartProducts.map((item, index) => {
+          return <CartItem key={index} item={item} deleteItem={deleteItem} />;
         })}
       {/* Open the modal using document.getElementById('ID').showModal() method */}
 

@@ -22,7 +22,7 @@ const Device = ({ device }) => {
             <button
               className="btn bg-white border-2 border-[#9538E2] rounded-3xl text-[#9538E2]"
               onClick={() => {
-                navigate(`product/${device.model}`);
+                navigate(`/product/${device.model}`);
               }}
             >
               View Details

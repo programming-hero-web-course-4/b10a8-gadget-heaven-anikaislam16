@@ -72,10 +72,8 @@ const WishList = () => {
         <h1 className="font-bold text-lg my-6">WishList</h1>
       </div>
       {cartProducts &&
-        cartProducts.map((item) => {
-          return (
-            <WishItem key={item.model} item={item} deleteItem={deleteItem} />
-          );
+        cartProducts.map((item, index) => {
+          return <WishItem key={index} item={item} deleteItem={deleteItem} />;
         })}
     </div>
   );
